@@ -1,0 +1,5 @@
+1|Iphone 15|Apple|2023
+2|Samsung pro max|Samsung|2023
+3|Xiaomi hihi|Trung quốc|2023
+4|vertu 186|Giàu có|2022
+5|Nokia cục gạch|Nokia|1998
