@@ -9,6 +9,48 @@ namespace Buoi_4_LinQ_LamDa
 {
     internal class Program
     {
+        #region Lamda
+        /*
+      * Biểu thức lambda còn gọi là biểu thức (Anonymous), 
+      * một biểu thức khai báo giống phương thức nhưng thiếu tên. 
+      * Cú pháp để khai báo biểu thức lambda là sử dụng toán tử lambda => 
+      * như sau:
+       - Công thức 1:
+           (tham_số) => biểu_thức;
+       - Công thức 2:
+           (tham_số) =>
+               {
+                  các câu lệnh
+                  Sử dụng return nếu có giá trị trả về
+               }            
+      */
+        #endregion
+        #region LINQ là gì
+        /*
+       *  LINQ: Language Integrated Query
+       *  Định nghĩa:  ngôn ngữ truy vấn tích hợp -
+       *  nó tích hợp cú pháp truy vấn (gần giống các câu lệnh SQL) 
+       *  vào bên trong ngôn ngữ lập trình C#, cho nó khả năng truy cập
+       *  các nguồn dữ liệu khác nhau (SQL Db, XML, List ...) 
+       *  với cùng cú pháp.
+       * Ưu điểm:
+       * ➢Ưu điểm lớn nhất của Linq đó chính là sự mạch lạc trong code, xậy dựng nhanh, ít gây lỗi
+         ➢Linq cung cấp nhiều phương thức trong truy vấn dữ liệu, nếu cùng một chức năng, khi sử dụng truy vẫn thuần có thể phải code nhiều gấp 2, 3 lần khi sử dụng linq (tùy ứng dụng)
+         ➢Cách tiếp cận khai báo giúp truy vấn dễ hiểu và gọn hơn
+       * Nhược điểm:
+       *➢Tốc độ chậm nếu viết linq không khéo
+          Linq query syntax:
+                              from object in datasource
+                              where condition
+                              select object
+          from: Từ nguồn dữ liệu mà truy vấn sẽ thực hiện
+          in: bên trong nguồn giá trị nào
+          datasource: tập giá trị nguồn
+          where: lọc dữ liệu theo điều kiện condition
+          select object: Lấy ra kết quả có thể là giá trị hoặc tập giá trị
+          Ngoài ra chúng ta cũng thấy việc áp dụng lambda cơ bản với những câu lọc dữ liệu ngắn sẽ đơn giản nhưng khi join vào nhiều datasource sẽ không dễ đọc với người chưa có kinh nghiệm
+       */
+        #endregion
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.Unicode;
