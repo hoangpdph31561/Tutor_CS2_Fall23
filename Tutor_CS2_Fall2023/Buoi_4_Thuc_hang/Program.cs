@@ -41,11 +41,11 @@ namespace Buoi_4_Thuc_hang
                 new Movie(Guid.NewGuid(), "Phong ba","Phim tình cảm",2019,lstActors4),
                 new Movie(Guid.NewGuid(), "Bão táp","Phim lịch sử",2023,lstActors5)
             };
-            
+
             //Liệt kê các phim bắt đầu bằng chữ T.
             var resultMovieT = (from movie in lstMovies
-                               where movie.Name.Trim().StartsWith("T")
-                               select movie).ToList();
+                                where movie.Name.Trim().StartsWith("T")
+                                select movie).ToList();
 
             foreach (var item in resultMovieT)
             {

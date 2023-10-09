@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi_4_LinQ_LamDa", "Buoi_4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi_4_Thuc_hang", "Buoi_4_Thuc_hang\Buoi_4_Thuc_hang.csproj", "{DB2447DC-2564-4AF6-9D54-13BF2E3FAAC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi_5_Demo_De_thi", "Buoi_5_Demo_De_thi\Buoi_5_Demo_De_thi.csproj", "{A171E3C7-EAE9-4E11-AC14-574497E38CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi_5_Tong_hop", "Buoi_5_Tong_hop\Buoi_5_Tong_hop.csproj", "{D073F7DE-AA16-4E98-BE29-7AE40FC08978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{DB2447DC-2564-4AF6-9D54-13BF2E3FAAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB2447DC-2564-4AF6-9D54-13BF2E3FAAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB2447DC-2564-4AF6-9D54-13BF2E3FAAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171E3C7-EAE9-4E11-AC14-574497E38CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171E3C7-EAE9-4E11-AC14-574497E38CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171E3C7-EAE9-4E11-AC14-574497E38CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171E3C7-EAE9-4E11-AC14-574497E38CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D073F7DE-AA16-4E98-BE29-7AE40FC08978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D073F7DE-AA16-4E98-BE29-7AE40FC08978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D073F7DE-AA16-4E98-BE29-7AE40FC08978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D073F7DE-AA16-4E98-BE29-7AE40FC08978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
